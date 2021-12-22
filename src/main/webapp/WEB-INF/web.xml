@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application by Ayush Singh</display-name>
+  
+  <!-- Configure Dispatcher Servlet -->
+  
+  <servlet> <!-- Declaring DispatcherServlet servlet -->
+  	<servlet-name>spring</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping> <!-- Mapping the above made servlet with it's url, here to all url(requests) -->
+  	<servlet-name>spring</servlet-name>
+  	<url-pattern>/</url-pattern> <!-- To handle all the requests of all the address -->
+  </servlet-mapping>
+  
+  
+</web-app>
